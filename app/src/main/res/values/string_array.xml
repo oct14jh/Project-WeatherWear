@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="spinnerArray">
+        <item>[지역 선택]</item>
+        <item>서울</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>춘천</item>
+        <item>광주</item>
+        <item>대전</item>
+        <item>경산</item>
+    </string-array>
+
+    </resources>

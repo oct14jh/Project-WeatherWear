@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.it.customlistview">
+
+    <uses-sdk android:targetSdkVersion="26" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 인터넷 접속 허용 -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    -
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        -
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".popup_setting_local"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".popup_setting_all" />
+        <activity android:name=".detail_weather" />
+        <activity android:name=".write_board" />
+        <activity android:name=".search_local" />
+        <activity android:name=".Board" />
+        <activity android:name=".mypage" />
+        <activity android:name=".gps_local" />
+        <activity android:name=".Login" />
+        <activity android:name=".Join" />
+        <activity android:name=".total_link_image" />
+        <activity android:name=".Check" />
+        <activity android:name=".inquryboard" />
+        <activity android:name=".set_Board" />
+        <activity android:name=".delete_board" />
+        <activity android:name=".findselect" />
+        <activity android:name=".find_id" />
+        <activity android:name=".find_pw"></activity>
+    </application>
+
+</manifest>

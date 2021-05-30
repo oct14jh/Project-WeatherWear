@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Join">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/textView_Join_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="8"
+        android:id="@+id/editText_Join_id" />
+
+    <Button
+        android:id="@+id/button_Join_Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check ID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/textView_Join_pm" />
+
+    <EditText
+        android:id="@+id/editText_Join_pm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="13"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:id="@+id/textView_Join_em" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="13"
+        android:id="@+id/editText_Join_em" />
+
+    <Button
+        android:id="@+id/button_Join_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go_to_log"
+        android:text="Cancel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/textView_Join_result" />
+
+</LinearLayout>
